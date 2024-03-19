@@ -1,0 +1,8 @@
+services:
+  minecraft-server:
+    image: minecraft-server:latest
+    restart: unless-stopped
+    volumes:
+      - $DOCKERDATA/minecraft/$SERVER_NAME/world:/minecraft/world
+    ports:
+      - "$PORT:25565"
