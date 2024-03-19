@@ -8,7 +8,7 @@ To use this project you must have a docker daemon installed on the destination h
 
 ### To build:
 ```bash
-  dockerbuild -t minecraft-server -f Dockerfile .
+  docker build -t minecraft-server -f Dockerfile .
 ```
 
 ### To compose:
