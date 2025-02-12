@@ -12,7 +12,7 @@ To use this project you must have a docker daemon installed on the destination h
 ```
 
 ### To compose:
-Make sure that a .env file has been created with the following variables set:
+Make sure that a .env file has been created in the root of this project with the following variables set:
 * DOCKERDATA - this is the location you want your world data to be stored in on your host machine.
 * PORT - The port to expose the minecraft server on, on the host.
 * SERVER_NAME - A unique name for the server so it stores multiple minecraft servers separately.
