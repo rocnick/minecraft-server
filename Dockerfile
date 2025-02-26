@@ -26,5 +26,5 @@ RUN echo "eula=true" > eula.txt
 # Note: This is running with 2gb of memory made available
 ENTRYPOINT java -Xms2048M -Xmx2048M -jar server.jar nogui && /bin/bash
 
-# Useful for troubleshooting your dockerfile
+# Useful for troubleshooting your dockerfile - very useful
 # ENTRYPOINT ["tail", "-f", "/dev/null"]
